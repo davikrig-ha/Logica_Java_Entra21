@@ -16,11 +16,11 @@ public class CalculoImc {
 
         // PROCESSAMENTO
 
-        double resultado = (altura * altura) /peso;
+        double resultado = peso/ (altura * altura);
 
         // SAIDA DE DADOS
 
-        System.out.println("O resultado e " + resultado);
+        System.out.println("O resultado é " + resultado);
 
 
 
