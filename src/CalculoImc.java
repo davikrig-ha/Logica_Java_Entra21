@@ -1,8 +1,9 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculoImc {
     public static void main(String[] args) {
-
+        Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
         // ENTRADA DE DADOS
@@ -22,7 +23,9 @@ public class CalculoImc {
 
         System.out.println("O resultado é " + resultado);
 
+        // imprimi valor e formata saida
 
+        System.out.printf("%.2f%n" , resultado);
 
 
 
