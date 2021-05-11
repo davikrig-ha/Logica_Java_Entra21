@@ -23,16 +23,14 @@ public class TrabalhandoComTexto {
 
         //processamento
 
-        String valoresConcatenados = "Oi, meu nome é " + nome + ", Tenho " + idade +
-                " anos, minha altura é " + altura + " metros e estou pesando " + peso + "kg";
+        System.out.printf("Oi, meu nome é %s , e tenho %d anos, minha altura é %.2f , e meu peso é %.2f"
+                , nome, idade, altura,peso);
+
+
+      scanner.close();
 
 
 
-
-
-         // SAIDA DE DADOS
-
-        System.out.println(valoresConcatenados);
 
 
     }
