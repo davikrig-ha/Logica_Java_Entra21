@@ -41,10 +41,6 @@ public class EntradaDeDados {
 
 
 
-
-        scanner.close();
-
-
     }
 
 }
