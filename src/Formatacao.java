@@ -1,9 +1,12 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Formatacao {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner scanner = new Scanner(System.in);
+
         double x = 10.35784;
 
         // imprimi o texto SEM uma nova linha
@@ -18,7 +21,7 @@ public class Formatacao {
          System.out.printf("%.2f%n" , x);
          System.out.printf("%.4f%n" , x);
 
-
+           scanner.close();
 
 
     }
