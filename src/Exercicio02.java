@@ -20,9 +20,13 @@ public class Exercicio02 {
         Locale.setDefault(Locale.US);
         Scanner sc  =  new   Scanner(System.in);
 
+        // ENTRADA DE DADOS
+
         double largura = sc.nextDouble();
         double comprimento = sc.nextDouble();
         double metroQuadrado = sc.nextDouble();
+
+        // PROCESSAMENTO
 
         double area = largura * comprimento;
         double preco = area * metroQuadrado;
