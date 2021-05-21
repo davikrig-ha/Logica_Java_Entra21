@@ -34,7 +34,6 @@ public class CalculaRetangulo {
         System.out.printf("PERIMETRO =  %.4f%n ", perimetro);
         System.out.printf("DIAGONAL =  %.4f%n ", diagonal);
 
-
         s.close();
     }
 }
