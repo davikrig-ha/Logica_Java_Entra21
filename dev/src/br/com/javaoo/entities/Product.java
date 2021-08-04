@@ -22,16 +22,18 @@ public class Product {
     }
     public double getPrice(){ return price; }
 
-    public void setQuantity(int quantity){
-        this.quantity = quantity;
-    }
-    public int getQuantity(){
-        return quantity;
-    }
+    public void setQuantity(int quantity){ this.quantity = quantity;
+    } public int getQuantity(){ return quantity; }
 
 
     public void setColor(String color){ this.color = color; }
     public String getColor(){ return color; }
 
     public double totalValueInStock(){ return   quantity * price; }
+
+    public void addProduct(int quantity){
+        if (quantity < 0){ return; } this.quantity += quantity; }
+
+    public void removeProduct(int quantity){
+        if (this.quantity < quantity){ return; } this.quantity -= quantity; }
 }
